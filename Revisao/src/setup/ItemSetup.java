@@ -7,7 +7,7 @@ public abstract class ItemSetup {
     private double precoBase;
 
 
-    public ItemSetup(double precoBase, String descricao) {
+    public ItemSetup(String descricao, double precoBase) {
 
         if (precoBase <= 0) {
             throw new IllegalArgumentException("Preço base inválido");

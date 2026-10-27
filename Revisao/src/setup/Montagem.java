@@ -4,7 +4,7 @@ public class Montagem extends ItemSetup {
 
     private int horas;
 
-    public Montagem(double precoBase, String descricao, int horas) {
+    public Montagem( String descricao, double precoBase, int horas) {
         super(precoBase, descricao);
 
         if (horas <= 0) {

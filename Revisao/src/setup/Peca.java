@@ -3,7 +3,7 @@ package setup;
 public class Peca extends ItemSetup implements ComGarantia {
     private int quantidade;
 
-    public Peca(double precoBase, String descricao, int quantidade) {
+    public Peca( String descricao, double precoBase, int quantidade) {
         super(precoBase, descricao);
 
         if (quantidade <= 0) {
